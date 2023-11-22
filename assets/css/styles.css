@@ -4,11 +4,16 @@
     border: none;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 300;
     color: black;
-    background-color: aqua;
+    /* background-color: aqua; */
+    margin-top: 50px;
 }
 
 /* headings */
@@ -22,6 +27,16 @@ h1, h2 {
     float: left;
     font-size: 150%;
     margin-left: 30px;
+}
+
+header {
+    clear: both;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid black;
 }
 
 #menu {
